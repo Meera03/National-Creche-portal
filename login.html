@@ -1,0 +1,27 @@
+<html>
+<head>
+<script>
+<title>login</title>
+function login()
+{
+alert(document.getElementById("txtusername").value);
+}
+</script>
+</head>
+<body>
+this is sample
+<form id="frmlogin">
+user name:<input type="text" id="txtusername"/>
+</br></br>
+user role:
+<select id="sltusertype">
+<option value="1">parents</option>
+<option value="2">student</option>
+<option value="3">children</option>
+<br/><br/>
+password:<input type="text" id="txtpassword"/>
+<br/><br/>
+<input type="button" value="login" onclick="login();"/>
+</form>
+</body>
+</html>
