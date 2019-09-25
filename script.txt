@@ -1,0 +1,1 @@
+ create table tbl_mst_staff(num_staff_id number primary key,vch_first_name varchar2(20),vch_last_name varchar2(20),num_age number,vch_email varchar2(30),vch_gender varchar2(10),num_phoneno number,vch_address varchar2(50),vch_city varchar2(30),num_gender_code number);
